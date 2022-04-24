@@ -1,2 +1,15 @@
 <title>Home</title>
-<div>Welcome to the home page of the Holmen Viking Tennis program</div>
+<div class="home-content">
+  <div>Welcome to the home page of the Holmen Viking Tennis program</div>
+  <div>Here you can see information about the Boys and Girls Holmen Highschool tennis programs.</div>
+  <br>
+  <google-map height="500px" width="100%" [center]="courtLocation" >
+    <map-marker
+    *ngFor="let marker of markers"
+    [position]="marker.position"
+    [label]="marker.label"
+    [title]="marker.title"
+    [options]="marker.options"
+  ></map-marker>
+  </google-map>
+</div>
