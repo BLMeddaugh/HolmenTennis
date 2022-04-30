@@ -1,11 +1,8 @@
 .parallax {
-  /* The image used */
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../assets/courts.jpg");
 
-  /* Set a specific height */
-  min-height: 100px;
+  min-height: 7vh;
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,8 +10,7 @@
 }
 
 ul {
-  background-color: rgb(33, 97, 33);
-  color : white;
+  color : black;
   margin: 0;
   padding-bottom: 5px;
   h3 {
