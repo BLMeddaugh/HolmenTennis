@@ -10,7 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { AboutComponent } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
-import { GoogleMapsModule } from '@angular/google-maps'
+import { GoogleMapsModule } from '@angular/google-maps';
+import { OtherTennisComponent } from './other-tennis/other-tennis.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { GoogleMapsModule } from '@angular/google-maps'
     HomeComponent,
     ScheduleComponent,
     AboutComponent,
-    FaqComponent
+    FaqComponent,
+    OtherTennisComponent
   ],
   imports: [
     BrowserModule,

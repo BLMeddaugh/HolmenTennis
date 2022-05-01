@@ -7,11 +7,11 @@
 .parallax {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../assets/bench.jpg");
 
-  .small {
+  &.small {
     min-height: 3vh;
   }
 
-  .large {
+  &.large {
     min-height: 7vh;
   }
 
