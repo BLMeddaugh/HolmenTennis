@@ -1,6 +1,19 @@
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 
+.text-content {
+  justify-content: center;
+  margin: 1% 5%;
+  ul {
+    color : black;
+    margin: 0;
+    padding-bottom: 5px;
+    li {
+      font-size: 1.2em;
+    }
+  }
+}
+
 html, body {
   height: 100%;
   margin: 0;

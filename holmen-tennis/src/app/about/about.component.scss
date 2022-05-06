@@ -1,22 +1,20 @@
-.coaches-body {
+.about {
+  padding-top: 10px;
+  justify-content: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../assets/bench.jpg");
+  min-height: 92vh;
+}
+
+.card {
   h2 {
     color: maroon;
   }
-}
-
-.parallax {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../assets/bench.jpg");
-
-  &.small {
-    min-height: 3vh;
-  }
-
-  &.large {
-    min-height: 7vh;
-  }
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-left: 1%;
+  margin: 2%;
 }

@@ -1,3 +1,7 @@
+h3 {
+ text-decoration: underline;
+}
+
 .parallax {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../assets/courts.jpg");
 
@@ -7,17 +11,4 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-ul {
-  color : black;
-  margin: 0;
-  padding-bottom: 5px;
-  h3 {
-    color:white(0, 0, 0, 0.7);
-    font-size: 1.8em;
-  }
-  li {
-    font-size: 1.2em;
-  }
 }
