@@ -13,6 +13,7 @@ const routes: Routes = [
   {path: 'schedule', component: ScheduleComponent},
   {path: 'faq', component: FaqComponent},
   {path: 'other', component: OtherTennisComponent}
+  //** ideas: "Benefits of tennis", "pillars", "In The News", "resources (youtube?), Media/pictures" */
 ];
 
 @NgModule({
