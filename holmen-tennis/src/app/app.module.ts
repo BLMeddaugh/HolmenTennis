@@ -11,7 +11,8 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { AboutComponent } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
 import { GoogleMapsModule } from '@angular/google-maps';
-import { OtherTennisComponent } from './other-tennis/other-tennis.component'
+import { OtherTennisComponent } from './other-tennis/other-tennis.component';
+import { MediaComponent } from './media/media.component'
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { OtherTennisComponent } from './other-tennis/other-tennis.component'
     ScheduleComponent,
     AboutComponent,
     FaqComponent,
-    OtherTennisComponent
+    OtherTennisComponent,
+    MediaComponent
   ],
   imports: [
     BrowserModule,

@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
 import { HomeComponent } from './home/home.component';
+import { MediaComponent } from './media/media.component';
 import { OtherTennisComponent } from './other-tennis/other-tennis.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 
@@ -12,7 +13,8 @@ const routes: Routes = [
   {path: 'about', component: AboutComponent},
   {path: 'schedule', component: ScheduleComponent},
   {path: 'faq', component: FaqComponent},
-  {path: 'other', component: OtherTennisComponent}
+  {path: 'other', component: OtherTennisComponent},
+  {path: 'media', component: MediaComponent}
   //** ideas: "Benefits of tennis", "pillars", "In The News", "resources (youtube?), Media/pictures" */
 ];
 
